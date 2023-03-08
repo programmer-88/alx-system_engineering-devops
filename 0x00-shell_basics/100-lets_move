@@ -1,2 +1,2 @@
 #!/bin/bash
-mv -type f -regex '.*\/[A-Z][^/]*' /tmp/u
+mv |grep '^[A-Z]' /tmp/u

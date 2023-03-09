@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod o-a+x *
+mkdir -m 751 my_dir

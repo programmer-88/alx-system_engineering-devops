@@ -1,1 +1,1 @@
-This repo contains soma basic bash commands
+This is for shell redirections

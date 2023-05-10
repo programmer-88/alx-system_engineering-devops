@@ -1,2 +1,2 @@
 #!/bin/bash
-mv -type f -name "[[:upper:]]*" /tmp/u
+mv *[A-Z]* /tmp/u

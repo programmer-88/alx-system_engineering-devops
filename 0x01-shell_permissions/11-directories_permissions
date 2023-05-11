@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R ua+x
+chmod -R ua+x *

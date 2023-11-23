@@ -1,10 +1,15 @@
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times adn hi at 8th
-for ((i = 1; i <= 11; i++))
+counter=1
+
+while [ $counter -le 10 ]
 do
-    if [ $i -ne 10 ]; then
+    if [ $counter -eq 9 ]; then
         echo "Best School"
-    else
         echo "Hi"
+    else
+        echo "Best School"
     fi
+
+    ((counter++))
 done

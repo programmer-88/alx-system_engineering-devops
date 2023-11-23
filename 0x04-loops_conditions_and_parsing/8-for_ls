@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#This script prints the contents of a directory
+
+for file in *-*
+do
+    if [ -f "$file" ] && [ ! -h "$file" ] && [ "${file:0:1}" != "." ]; then
+        filename="${file#*-}"
+        echo "$filename"
+    fi
+done

@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # This script displsys the time for 12 hours and 59 mins
+
 hour=0
 while [ $hour -le 12 ]
 do

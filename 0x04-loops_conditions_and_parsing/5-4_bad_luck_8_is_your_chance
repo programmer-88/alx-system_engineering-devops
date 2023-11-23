@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script is displaying different messages at different times
+# This script is displaying different messages at different itterations
 counter=1
 
 while [ $counter -le 10 ]
@@ -7,7 +7,7 @@ do
     if [ $counter -eq 4 ]; then
         echo "bad luck"
     elif [ $counter -eq 8 ]; then
-        echo "good luch"
+        echo "good luck"
     else
         echo "Best School"
     fi

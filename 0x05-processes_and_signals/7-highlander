@@ -10,6 +10,6 @@ trap 'sigterm_handler' SIGTERM
 
 while true
 do
-    echo "To infinity and beyond"
+    echo "to infinity and beyond"
     sleep 2
 done

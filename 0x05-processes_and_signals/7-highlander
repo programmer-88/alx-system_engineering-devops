@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# This script is infinite and has a signal
+
+sigterm_handler(){
+    echo "I am invincible!!!"
+    exit 0
+}
+
+trap 'sigterm_handler' SIGTERM
+
+while true
+do
+    echo "To infinity and beyond"
+    sleep 2
+done

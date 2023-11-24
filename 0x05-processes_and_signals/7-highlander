@@ -1,12 +1,7 @@
 #!/usr/bin/env bash
 # This script is infinite and has a signal
 
-sigterm_handler(){
-    echo '"I am invincible!!!"' 15
-    exit 0
-}
-
-trap 'sigterm_handler' SIGTERM
+trap 'echo "I am invincible!!!"' 15
 
 while true
 do

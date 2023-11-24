@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # This script display pid and process name
 
-pgrep -f bash | xargs -n 1 ps -p
+pgrep -l bash

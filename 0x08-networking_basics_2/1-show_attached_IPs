@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A script that displays all IPv4IPs
+
+ifconfig | grep 'inet '| cut -d ' ' -f10
